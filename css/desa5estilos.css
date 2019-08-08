@@ -1,0 +1,106 @@
+
+header {
+	background: rgb(231, 219, 219);
+
+}
+
+.navegacion {
+    width: 1000px;
+    margin: 30px auto;
+    background:black;
+    
+}
+
+.navegacion ul {
+    list-style: none;
+
+    
+}
+
+
+.menu > li {
+    position: relative;
+    display: inline-block;
+    
+}
+
+.menu > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.menu >li >a:hover {
+    color: blue;
+    transition: all 1.5s;
+}
+
+.submenu {
+    position: absolute;
+    background: black;
+    width: 80%;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+.submenu >li  a {
+    display: block;
+    padding: 5px;
+    color: white;
+}
+
+.menu >li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1{margin:0;text-align: center;}
+h2{text-align: right; padding: 20px; text-transform: capitalize;color:white;}
+h2 span {color:red;}
+h3 {color: white; padding: 15px;font-weight: bold;margin:0;}
+
+.bg-yellow {background: yellow;}
+.bg-blue {background: blue;}
+.bg-green {background: green;}
+.bg-aqua {background: aqua;}
+.bg-grey {background: grey;}
+.bg-navy {background: navy;}
+.bg-red {background: red;}
+
+.col1, .col2, .col3 {float: left;max-width: 30%; padding:0 1em;}
+.col2 {
+	border-left:dotted 4px red;
+	border-right: dotted 4px blue;
+}
+.cabecera {background: url("../img/drwho02.jpg");background-size: contain;}
+
+.clearfix {clear: both;}
+
+#autores {background: url("../img/drwho01.jpg"); padding:2em;}
+#autores main {margin:0 auto;max-width: 90%;background: white;padding-bottom: 1.2em; }
+
+
+
+
+footer{
+	background: red;
+	text-align: center;
+	font-size: 2em;
+	padding:10px;
+}
+footer p {color:white;}
